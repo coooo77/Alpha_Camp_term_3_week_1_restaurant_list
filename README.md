@@ -8,6 +8,7 @@
 
 ## 餐廳清單 (Project Title)：
 一個以Node.js與Express建立的餐廳資料瀏覽網站
+![image] (https://github.com/coooo77/restaurant_list/blob/master/public/navigation.gif?raw=true)
 
 ## 環境建置與需求 (prerequisites)：
 * Node Version Manager (nvm) v 1.1.7
@@ -17,10 +18,13 @@
 
 ## 安裝與執行步驟 (installation and execution)：
 1. 下載Github頁面上內容
-2. 根據環境建置與需求依序安裝軟體與套件
-3. 啟動Node.js cmd
-4. 以指令cd移動至restaurant資料夾底下
-5. 輸入nodemon app.js啟動
+> git clone https://github.com/coooo77/restaurant_list
+2. 啟動Node.js cmd以指令cd移動至restaurant資料夾底下
+> cd 下載位置/restaurant_list
+3. 根據環境建置與需求安裝軟體與套件
+> npm install
+4. 啟動專案
+> npm run dev
 
 ## 功能描述 (features)：
 * 可以瀏覽8個餐廳簡略資料
