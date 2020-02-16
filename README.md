@@ -25,6 +25,8 @@
 > npm install
 4. 啟動專案
 > npm run dev
+5. 開啟瀏覽器，輸入網址
+> localhost:3000/
 
 ## 功能描述 (features)：
 * 可以瀏覽8個餐廳簡略資料
