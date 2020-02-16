@@ -8,7 +8,7 @@
 
 ## 餐廳清單 (Project Title)：
 一個以Node.js與Express建立的餐廳資料瀏覽網站
-![image] (https://github.com/coooo77/restaurant_list/blob/master/public/navigation.gif?raw=true)
+![image](https://github.com/coooo77/restaurant_list/blob/master/public/navigation.gif?raw=true)
 
 ## 環境建置與需求 (prerequisites)：
 * Node Version Manager (nvm) v 1.1.7
