@@ -5,6 +5,10 @@
 功能描述 (features)：你所完成的功能。如果功能太多，可以只說明重點功能。 -->
 
 # 餐廳清單
+
+## 餐廳清單 (Project Title)：
+一個以Node.js與Express建立的餐廳資料瀏覽網站
+
 ## 環境建置與需求 (prerequisites)：
 * Node Version Manager (nvm) v 1.1.7
 * Express (framework) 4.17.1
