@@ -19,7 +19,9 @@ app.get('/restaurants/:id', (req, res) => {
 
 app.get('/search', (req, res) => {
   const word = req.query.keyword
-  const search = restaurantList.results.filter(restaurant => restaurant.name.toLowerCase().includes(word.toLowerCase()))
+  const search = restaurantList.results.filter(restaurant => {
+    return restaurant.name.toLowerCase().includes(word.toLowerCase()) || restaurant.category.toLowerCase().includes(word.toLowerCase())
+  })
   res.render('index', { list: search, keyword: word })
 })
 
